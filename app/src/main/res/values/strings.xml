@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project5 FedCash</string>
+    <string-array name="dropdown">
+        <item>Monthly Cash</item>
+        <item>Daily Cash</item>
+        <item>Yearly Average</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

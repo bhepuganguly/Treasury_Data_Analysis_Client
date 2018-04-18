@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.tatha.project5fedcash.MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="10dp"/>
+
+
+
+    <EditText
+        android:id="@+id/etYear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:hint="Year"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+
+        />
+
+    <EditText
+        android:id="@+id/etDate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:hint="MM/DD/YYYY"
+        android:inputType="date"
+        android:visibility="invisible" />
+
+<!--
+    <EditText
+        android:id="@+id/etMonth2"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDay2"
+        android:hint="Month"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/etYear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/etMonth2"
+        android:hint="Year"
+        android:visibility="invisible" /> -->
+
+    <EditText
+        android:id="@+id/etNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDate2"
+        android:hint="Number of days"
+        android:visibility="invisible"
+        android:singleLine="true"
+        android:imeOptions="actionDone"/>
+
+
+    <EditText
+        android:id="@+id/etYear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:hint="Yearly Average"
+        android:visibility="invisible"
+        android:singleLine="true"
+        android:imeOptions="actionDone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bSubmit1"
+        android:id="@+id/test"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bSubmit1"/>
+
+
+</RelativeLayout>
